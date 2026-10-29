@@ -1,0 +1,53 @@
+2026-09-18 16:29:20,851 - INFO - Before constant Technique X_train columns and shape : Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='str') : (120000, 11)
+2026-09-18 16:29:20,851 - INFO - Before constant Technique X_test columns and shape : Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='str') : (30000, 11)
+2026-09-18 16:29:20,913 - INFO - Columns to remove : Index(['NPA Status_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim'],
+      dtype='str')
+2026-09-18 16:29:20,915 - INFO - After  constant Technique X_train columns and shape : Index(['RevolvingUtilizationOfUnsecuredLines_yeo_trim', 'age_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='str') : (120000, 7)
+2026-09-18 16:29:20,915 - INFO - After  constant Technique X_test columns and shape : Index(['RevolvingUtilizationOfUnsecuredLines_yeo_trim', 'age_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='str') : (30000, 7)
+2026-09-18 16:29:20,932 - INFO - Columns to remove : Index(['RevolvingUtilizationOfUnsecuredLines_yeo_trim', 'NumberOfDependents_replaced_yeo_trim'], dtype='str')
+2026-09-18 16:29:20,933 - INFO - After Quasi constant Technique X_train columns and shape : Index(['age_yeo_trim', 'DebtRatio_yeo_trim',
+       'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='str') : (120000, 5)
+2026-09-18 16:29:20,933 - INFO - After Quasi constant Technique X_test columns and shape : Index(['age_yeo_trim', 'DebtRatio_yeo_trim',
+       'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='str') : (30000, 5)
+2026-09-18 16:29:20,935 - INFO - After Hypothesis Technique X_train columns and shape : Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='str') : (120000, 4)
+2026-09-18 16:29:20,936 - INFO - After Hypothesis Technique X_test columns and shape : Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='str') : (30000, 4)
